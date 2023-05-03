@@ -1,0 +1,30 @@
+Razor Pages :
+Este en un modelo de programacion centrado
+en paginas de lado servidor para crear interfaces
+de usuario web.
+
+Se usa cuando quieras usar una web dinamica donde el
+marcado de pagina y PageModel esten cerca.
+
+
+//CREAR PAGINA WEB
+
+dontent new webapp -f net6.0
+
+//Crear una pagina nueva
+
+El comando anterior:
+
+Crea los archivos siguientes en el espacio de nombres RazorPagesPizza.Pages:
+Pizza.cshtml: La página de Razor
+Pizza.cshtml.cs: La clase PageModel que la acompaña
+Almacena ambos archivos en el directorio Pages del proyecto.
+
+
+dotnet new page --name Pizza --namespace RazorPagesPizza.Pages --output Pages
+
+
+
+Adición de las clases Pizza y PizzaService
+
+
